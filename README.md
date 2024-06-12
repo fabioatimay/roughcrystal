@@ -1,41 +1,41 @@
 # Pokémon Rough Crystal (WIP)
-___
+
 This is a custom Pokémon game based on [the Pokémon Crystal Polished](https://github.com/Rangi42/polishedcrystal).
 
 Beyound of everything Polished Crystal has to offer this hack rom is actually a "semi-nuzlocke" mod of the same hack rom. 
 And yes, I know Polished Crystal has a nuzlocke feature mode built-in, however, I dont like some nuzlocke rules anymore and here it comes what I am trying to change the nuzlocke experience for a new concept of "semi-nuzlocke" or "soft-nuzlocke".
 ___
-# FAQ>
-  ## Nuzlocke features (partially) maintened/removed:
+# FAQ
+  ## Nuzlocke features (partially) maintened/removed
   
-    1. Pokémon permanently dies? **No**, but there are only few ways to revive it. **And here is why: **
+  1. Pokémon permanently dies? **No**, but there are only few ways to revive it. **And here is why: ** ...
     ..* Throughout my nuzlocke experience (without built-in nuzlocke, only my own rules) I realized that my wish for revive one especific Pokémon gave me a certain thrill in which I desired to overcome my own rules and invented new ones in order to bypass perma-death and the journey was AMAZING. I had to obtain a very rare item in order to revive one specific Pokémon. It was great, so I decided to keep that experience.
-    2. Only 1 Pokémon catchable per land mark? Duplicate clauses? Shiny clauses? Well... **let's talk about it.**
+  2. Only 1 Pokémon catchable per land mark? Duplicate clauses? Shiny clauses? Well... **let's talk about it.**
     ..* Yes, one mon by map is basically what defines nuzlocke experience, you take affection for that little one, I know! BUT...
     ..* After playing Legends Arceus (with permanent death clause) I had experience something new... Because Legends Arceus is about catching a lot of mon, by the end of each region map many Pokémon has been caught and many has been released and only the strong ones (or carefully trained) survived the jorney. The limitation of only access Pokémon Storage at the main map create a sense of danger in the wild...And that my friends was game changing for me! 
     ..* So, NO. There's no such thing here (Hear me out, dont quit yet :rofl: ). Of course you can activate the built-in normal nuzlocke if you disagre with me and want only one catch by route, BUT ...
     ..*  This Mod was crafted to play diferently and I will explain how this balance it all (read my proposition bellow).
-    3. No Battle items Clauses? Items can be used in battle but are they really expensive or not quite effective, only real trainers can get and know how and when to use them, a lot of items was blocked of in battle usage from pocket like all berries, and some was maintained as the spray-like medicines.
+  3. No Battle items Clauses? Items can be used in battle but are they really expensive or not quite effective, only real trainers can get and know how and when to use them, a lot of items was blocked of in battle usage from pocket like all berries, and some was maintained as the spray-like medicines.
     ..* Why I decided to maintain usable in battle items? Because my proposition is about freedom with a cost to it. This "cost" may be a lot of things, maybe exploring, maybe strategical gameplay, maybe resource management (and I know what everybody think of it in Pokemon games, but doing the right way without been too many punishing is rewarding! Trust me).
-    4. Breeding is allowed? Yes, I miss breeding! But the day-care feature has been modified to bypass exploitation (more details bellow in overall changes).
+  4. Breeding is allowed? Yes, I miss breeding! But the day-care feature has been modified to bypass exploitation (more details bellow in overall changes).
 
-  ## Semi-Nuzlocke proposition:
+  ## Semi-Nuzlocke proposition
   
-    1. In order to simulate a nuzlocke main experience (Catch clauses, Death clauses) I had to change access to revival and unlimited healings and rise abroad dificulty concerning exploitation like PC, Day-Care, Fast-Travel.
-      ..* You wont be able to freely and unlimitedly access full healing. So, your Pokémon will faint, eventually.
-      ..* Grinding will be significantly harder without PokéCenter so overleveling wont pay off.
-      ..* Whiting out will not heal your Pokémon. Exploiting for revive wont happen. 
-      ..* So you gonna need a lot of extra Pokémon and may the lucky ones survive till the Hall of Fame!
-
-  ## Overall changes:
+  1. In order to simulate a nuzlocke main experience (Catch clauses, Death clauses) I had to change access to revival and unlimited healings and rise abroad dificulty concerning exploitation like PC, Day-Care, Fast-Travel.
+  ..* You wont be able to freely and unlimitedly access full healing. So, your Pokémon will faint, eventually.
+  ..* Grinding will be significantly harder without PokéCenter so overleveling wont pay off.
+  ..* Whiting out will not heal your Pokémon. Exploiting for revive wont happen. 
+  ..* So you gonna need a lot of extra Pokémon and may the lucky ones survive till the Hall of Fame!
+     
+  # Overall changes
   
-    1. There are only **3 Pokémon Healing Machine** in the game (So, yes you can still do it)
+  1. There are only **3 Pokémon Healing Machine** in the game (So, yes you can still do it)
     ..* Elm's Lab, Fuji's Lab, League's Lobby.
-    2. There are only **4 Pokemon Storage Machine** in the game (so, yes you can access and exploit it if you will, when you can)
+  2. There are only **4 Pokemon Storage Machine** in the game (so, yes you can access and exploit it if you will, when you can)
     ..* Goldenrod's PokeCom Center, Bill's House, Safari Zone, Battle Frontier (Post-Game).
-    3. There are only **6 Flying Spot** in the game.
+  3. There are only **6 Flying Spot** in the game.
     ..* Azalea Town, Mahogany Town, Lavender Town, Whirl Island, Seafom Island, Tohjo Falls.
-    4. Day-care and Pokémon Center Overhaul.
+  4. Day-care and Pokémon Center Overhaul.
     ..* Day-care now is a **House Care for Retired Pokémon!** Once you retire a Pokémon you cannot take it back. They still can breed thou.
       ..* This is for bypass day-care exploitation for revive a fainted mon since daycare interaction will be everywhere.
     ..* Nurse Joy can retire a Pokémon, every retired Pokémon with Nurse Joy will give you an mail item.
@@ -47,7 +47,7 @@ ___
         ..* For half price, of course, but hey remember Lureballs? 
     
     
-
+___
 # Pokémon Polished Crystal
 
 This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
