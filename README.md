@@ -7,6 +7,7 @@ And yes, I know Polished Crystal has a nuzlocke feature mode built-in, however, 
 ___
 # FAQ>
   ## Nuzlocke features (partially) maintened/removed:
+  
     1. Pokémon permanently dies? **No**, but there are only few ways to revive it. **And here is why: **
     ..* Throughout my nuzlocke experience (without built-in nuzlocke, only my own rules) I realized that my wish for revive one especific Pokémon gave me a certain thrill in which I desired to overcome my own rules and invented new ones in order to bypass perma-death and the journey was AMAZING. I had to obtain a very rare item in order to revive one specific Pokémon. It was great, so I decided to keep that experience.
     2. Only 1 Pokémon catchable per land mark? Duplicate clauses? Shiny clauses? Well... **let's talk about it.**
@@ -19,6 +20,7 @@ ___
     4. Breeding is allowed? Yes, I miss breeding! But the day-care feature has been modified to bypass exploitation (more details bellow in overall changes).
 
   ## Semi-Nuzlocke proposition:
+  
     1. In order to simulate a nuzlocke main experience (Catch clauses, Death clauses) I had to change access to revival and unlimited healings and rise abroad dificulty concerning exploitation like PC, Day-Care, Fast-Travel.
       ..* You wont be able to freely and unlimitedly access full healing. So, your Pokémon will faint, eventually.
       ..* Grinding will be significantly harder without PokéCenter so overleveling wont pay off.
@@ -26,6 +28,7 @@ ___
       ..* So you gonna need a lot of extra Pokémon and may the lucky ones survive till the Hall of Fame!
 
   ## Overall changes:
+  
     1. There are only **3 Pokémon Healing Machine** in the game (So, yes you can still do it)
     ..* Elm's Lab, Fuji's Lab, League's Lobby.
     2. There are only **4 Pokemon Storage Machine** in the game (so, yes you can access and exploit it if you will, when you can)
@@ -45,8 +48,6 @@ ___
     
     
 
-
-======
 # Pokémon Polished Crystal
 
 This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
