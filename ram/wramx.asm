@@ -39,6 +39,9 @@ wMartItem9BCD:: ds 3
 wMartItem10BCD:: ds 3
 wMartItem11BCD:: ds 3
 wMartItem12BCD:: ds 3
+wMartItem13BCD:: ds 3
+wMartItem14BCD:: ds 3
+wMartItem15BCD:: ds 3
 wMartItemBCDEnd::
 
 NEXTU
