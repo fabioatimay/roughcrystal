@@ -1608,7 +1608,7 @@ _DayCareLadyIntroText::
 	text "I'm the Day-Care"
 	line "Lady."
 
-	para "Should I raise a"
+	para "May I retire a"
 	line "#mon for you?"
 	done
 
@@ -1635,7 +1635,7 @@ _DayCareLadyIntroEggText::
 SECTION "_WhatShouldIRaiseText", ROMX
 _WhatShouldIRaiseText::
 	text "What should I"
-	line "raise for you?"
+	line "take for you?"
 	prompt
 
 SECTION "_OnlyOneMonText", ROMX
@@ -1665,7 +1665,7 @@ _LastHealthyMonText::
 
 SECTION "_IllRaiseYourMonText", ROMX
 _IllRaiseYourMonText::
-	text "OK. I'll raise"
+	text "OK. I'll take"
 	line "your "
 	text_ram wStringBuffer1
 	text "."

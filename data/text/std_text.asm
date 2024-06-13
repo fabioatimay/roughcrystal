@@ -66,18 +66,18 @@ PokeComNurseNiteText:
 	done
 
 NurseAskHealText:
-	text "We can heal your"
+	text "We can take your"
 	line "#mon to perfect"
-	cont "health."
+	cont "care."
 
-	para "Shall we heal your"
+	para "Shall we take your"
 	line "#mon?"
 	done
 
 NurseTrainerStarText:
-	text "We can heal your"
+	text "We can take your"
 	line "#mon to perfect"
-	cont "health."
+	cont "care."
 
 	para "Shall we…"
 
@@ -92,8 +92,8 @@ NurseTrainerStarText:
 	line "sive Trainer."
 
 	para "Please, <PLAYER>,"
-	line "may I heal your"
-	cont "#mon?"
+	line "may I take care"
+	cont "your #mon?"
 	done
 
 NurseTheUsualText:
@@ -114,7 +114,7 @@ NurseReturnPokemonText:
 	line "waiting."
 
 	para "Your #mon are"
-	line "fully healed."
+	line "now retired."
 	done
 
 NurseGoodbyeText:
