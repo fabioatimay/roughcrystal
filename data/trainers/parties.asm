@@ -1133,7 +1133,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 4, RATTATA, NO_ITEM
+	db 4, RATTATA, NO_ITEM | ALOLAN_FORM
 	db 5, CHIKORITA, ORAN_BERRY
 	db -1 ; end
 
@@ -1143,7 +1143,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 4, RATTATA, NO_ITEM
+	db 4, RATTATA, NO_ITEM | ALOLAN_FORM
 	db 5, CYNDAQUIL, ORAN_BERRY
 	db -1 ; end
 
@@ -1153,7 +1153,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 4, RATTATA, NO_ITEM
+	db 4, RATTATA, NO_ITEM | ALOLAN_FORM
 	db 5, TOTODILE, ORAN_BERRY
 	db -1 ; end
 
@@ -1503,7 +1503,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, CHIKORITA, "Chicory@"
+	db 2, CHIKORITA, "Chicory@"
 	db -1 ; end
 
 ; ================
@@ -1512,7 +1512,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, CYNDAQUIL, "Cinder@"
+	db 2, CYNDAQUIL, "Cinder@"
 	db -1 ; end
 
 ; ================
@@ -1521,7 +1521,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, TOTODILE, "Toto@"
+	db 2, TOTODILE, "Toto@"
 	db -1 ; end
 
 ; ================

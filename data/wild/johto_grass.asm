@@ -1349,9 +1349,9 @@
 	; morn
 	wildmon 2, PIDGEY
 	wildmon 2, SENTRET
-	wildmon 3, PIDGEY
-	wildmon 3, SENTRET
-	wildmon 2, RATTATA
+	wildmon 3, DIGLETT
+	wildmon 3, DIGLETT	
+	wildmon 3, RATTATA
 	wildmon 3, SUNKERN
 	wildmon 3, SUNKERN
 	; day
@@ -1360,14 +1360,14 @@
 	wildmon 3, PIDGEY
 	wildmon 3, SENTRET
 	wildmon 2, RATTATA
-	wildmon 3, SUNKERN
-	wildmon 3, SUNKERN
+	wildmon 4, SUNKERN
+	wildmon 4, HOOTHOOT
 	; nite
 	wildmon 2, HOOTHOOT
-	wildmon 2, RATTATA
+	wildmon 2, RATTATA, ALOLAN_FORM
 	wildmon 3, HOOTHOOT
-	wildmon 3, RATTATA
-	wildmon 2, RATTATA
+	wildmon 3, RATTATA, ALOLAN_FORM
+	wildmon 3, RATTATA, ALOLAN_FORM
 	wildmon 3, HOOTHOOT
 	wildmon 3, HOOTHOOT
 	end_grass_wildmons
@@ -1384,20 +1384,20 @@
 	wildmon 4, SUNKERN
 	; day
 	wildmon 3, PIDGEY
-	wildmon 3, CATERPIE
+	wildmon 3, PIDGEY
+	wildmon 4, WEEDLE
 	wildmon 4, CATERPIE
-	wildmon 4, PIDGEY
-	wildmon 3, WEEDLE
-	wildmon 4, SUNKERN
-	wildmon 4, SUNKERN
+	wildmon 3, POLIWAG
+	wildmon 4, SPINARAK
+	wildmon 4, LEDYBA
 	; nite
 	wildmon 3, SPINARAK
 	wildmon 3, HOOTHOOT
 	wildmon 4, POLIWAG
 	wildmon 4, HOOTHOOT
 	wildmon 3, ZUBAT
-	wildmon 4, HOOTHOOT
-	wildmon 4, HOOTHOOT
+	wildmon 4, RATTATA, ALOLAN_FORM
+	wildmon 4, SPINARAK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
@@ -1414,14 +1414,14 @@
 	wildmon 4, PIDGEY
 	wildmon 4, CATERPIE
 	wildmon 5, BELLSPROUT
-	wildmon 5, PIDGEY
-	wildmon 4, WEEDLE
+	wildmon 5, PICHU
+	wildmon 4, POLIWAG
 	wildmon 5, SUNKERN
-	wildmon 5, SUNKERN
+	wildmon 5, GASTLY
 	; nite
 	wildmon 4, SPINARAK
 	wildmon 4, POLIWAG
-	wildmon 5, BELLSPROUT
+	wildmon 5, RATTATA, ALOLAN_FORM
 	wildmon 5, HOOTHOOT
 	wildmon 4, ZUBAT
 	wildmon 5, GASTLY
@@ -1445,10 +1445,10 @@
 	wildmon 6, MAREEP
 	wildmon 7, MAREEP
 	wildmon 6, SUNKERN
-	wildmon 7, SUNKERN
+	wildmon 7, RATTATA, ALOLAN_FORM
 	; nite
 	wildmon 4, WOOPER
-	wildmon 5, RATTATA
+	wildmon 5, RATTATA, ALOLAN_FORM
 	wildmon 7, BELLSPROUT
 	wildmon 7, HOOTHOOT
 	wildmon 6, MAREEP
@@ -1475,11 +1475,11 @@
 	wildmon 7, SUNKERN
 	wildmon 7, SUNKERN
 	; nite
-	wildmon 6, RATTATA
+	wildmon 6, RATTATA, ALOLAN_FORM
 	wildmon 6, ZUBAT
 	wildmon 6, GEODUDE
 	wildmon 6, ZUBAT
-	wildmon 7, RATTATA
+	wildmon 7, HOOTHOOT
 	wildmon 7, ODDISH
 	wildmon 7, ODDISH
 	end_grass_wildmons
@@ -1506,8 +1506,8 @@
 	wildmon 12, DROWZEE
 	wildmon 11, RATTATA, ALOLAN_FORM
 	wildmon 12, HOOTHOOT
-	wildmon 10, ABRA
-	wildmon 12, JIGGLYPUFF
+	wildmon 10, DITTO
+	wildmon 12, DITTO
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	end_grass_wildmons
@@ -1520,7 +1520,7 @@
 	wildmon 13, NIDORAN_F
 	wildmon 13, NIDORAN_M
 	wildmon 12, JIGGLYPUFF
-	wildmon 10, DITTO
+	wildmon 10, YANMA
 	wildmon 12, YANMA
 	; day
 	wildmon 12, SNUBBULL
@@ -1528,7 +1528,7 @@
 	wildmon 13, NIDORAN_M
 	wildmon 13, NIDORAN_F
 	wildmon 12, JIGGLYPUFF
-	wildmon 10, DITTO
+	wildmon 10, YANMA
 	wildmon 12, YANMA
 	; nite
 	wildmon 12, DROWZEE
@@ -1536,7 +1536,7 @@
 	wildmon 13, PSYDUCK
 	wildmon 10, ABRA
 	wildmon 12, JIGGLYPUFF
-	wildmon 10, DITTO
+	wildmon 10, YANMA
 	wildmon 12, YANMA
 	end_grass_wildmons
 
@@ -1555,14 +1555,14 @@
 	wildmon 4, PIDGEY
 	wildmon 5, BELLSPROUT
 	wildmon 5, GROWLITHE
-	wildmon 5, PIDGEY
+	wildmon 5, VULPIX
 	wildmon 6, PIDGEY
-	wildmon 6, PIDGEY
+	wildmon 6, HOOTHOOT
 	; nite
 	wildmon 4, SPINARAK
 	wildmon 4, HOOTHOOT
-	wildmon 5, BELLSPROUT
 	wildmon 5, VULPIX
+	wildmon 5, HOUNDOUR
 	wildmon 5, HOOTHOOT
 	wildmon 5, GASTLY
 	wildmon 5, GASTLY
@@ -1771,7 +1771,7 @@
 	wildmon 2, PIDGEY
 	wildmon 3, GEODUDE
 	wildmon 2, PHANPY
-	wildmon 2, RATTATA
+	wildmon 2, PHANPY
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	; day
