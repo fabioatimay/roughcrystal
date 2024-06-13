@@ -347,12 +347,12 @@ endr
 	db HIGH(65280), 40
 
 LureBallMultiplier:
-; multiply catch rate by 5 if this is a fishing rod battle
+; multiply catch rate by 5 if this is a fishing rod battle // Nerfed to 2x but sells on marts
 	ld a, [wBattleType]
 	cp BATTLETYPE_FISH
 	ret nz
 
-	ln a, 5, 1 ; x5
+	ln a, 2, 1 ; x2
 	jmp MultiplyAndDivide
 
 MoonBallMultiplier:
@@ -448,7 +448,7 @@ DoLevelBallMultiplier:
 	ret
 
 RepeatBallMultiplier:
-; multiply catch rate by 3.5 if enemy mon is already in Pokédex
+; multiply catch rate by 3.5 if enemy mon is already in Pokédex // nerfed to 2.5 but dropped price
 	ld a, [wTempEnemyMonSpecies]
 	dec a
 	push bc
@@ -456,7 +456,7 @@ RepeatBallMultiplier:
 	pop bc
 	ret z
 
-	ln a, 7, 2 ; x3.5
+	ln a, 5, 2 ; x3.5 // 2.5
 	jmp MultiplyAndDivide
 
 TimerBallMultiplier:
@@ -488,20 +488,20 @@ NestBallMultiplier:
 	jmp MultiplyAndDivide
 
 NetBallMultiplier:
-; multiply catch rate by 3.5 if mon is water or bug type
+; multiply catch rate by 3.5 if mon is water or bug type // nerfed to 3, changed to grass type, lil price adjust
 	ld a, [wEnemyMonType1]
-	cp WATER
+	cp GRASS
 	jr z, .ok
 	cp BUG
 	jr z, .ok
 	ld a, [wEnemyMonType2]
-	cp WATER
+	cp GRASS
 	jr z, .ok
 	cp BUG
 	ret nz
 
 .ok
-	ln a, 7, 2 ; x3.5
+	ln a, 6, 2 ; x3.5 //3
 	jmp MultiplyAndDivide
 
 DiveBallMultiplier:

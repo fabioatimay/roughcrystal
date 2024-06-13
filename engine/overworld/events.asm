@@ -871,7 +871,7 @@ CountStep:
 	; Every four steps, deal damage to all Poisoned Pokemon
 	ld hl, wPoisonStepCount
 	ld a, [hl]
-	cp 4
+	cp 8
 	jr c, .skip_poison
 	ld [hl], 0
 
