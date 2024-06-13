@@ -610,9 +610,10 @@ AideScript_GivePotions:
 	opentext
 	writetext AideText_GiveYouPotions
 	promptbutton
-	verbosegiveitem POKE_DOLL
-	verbosegiveitem PREMIER_BALL
-	verbosegivetmhm TM_HIDDEN_POWER
+	getitemname PREMIER_BALL, $1
+	callstd receiveitem
+	giveitem PREMIER_BALL, 5
+	itemnotify
 	setscene $2
 	jumpopenedtext AideText_AlwaysBusy
 

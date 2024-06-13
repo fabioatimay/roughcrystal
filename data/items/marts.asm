@@ -45,16 +45,16 @@ Marts:
 CherrygroveMart:
 	db 3 ; # items
 	db POKE_DOLL
-	db MULCH
 	db REPEL
+	db MULCH
 	db -1
 
 CherrygroveMartAfterDex:
 	db 4 ; # items
 	db POKE_BALL
 	db POKE_DOLL
-	db MULCH
 	db REPEL
+	db MULCH
 	db -1
 
 VioletMart:
@@ -65,8 +65,8 @@ VioletMart:
 	db POTION
 	db PARALYZEHEAL
 	db X_SPEED
-	db MULCH
 	db REPEL
+	db MULCH
 	db -1
 
 AzaleaMart:

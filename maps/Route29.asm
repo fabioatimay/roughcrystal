@@ -91,7 +91,7 @@ Route29FinishTutorial:
 	promptbutton
 	getitemname POKE_BALL, $1
 	callstd receiveitem
-	giveitem POKE_BALL, 10
+	giveitem POKE_BALL, 5
 	itemnotify
 	writetext CatchingTutorialGoodbyeText
 	waitbutton

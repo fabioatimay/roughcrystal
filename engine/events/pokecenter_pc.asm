@@ -54,13 +54,15 @@ PokemonCenterPC:
 
 .WhichPC:
 	; before pokedex
-	db  3 ; items
-	db  1, 0, 4 ; bill's, player's, turn off
+	db  2 ; items
+	; db  1, 0, 4 ; bill's, player's, turn off
+	db 0, 4 ; player's, turn off
 	db -1
 
 	; before Hall Of Fame
-	db  4 ; items
-	db  1, 0, 2, 4 ; bill's, player's, oak's, turn off
+	db  3 ; items
+	; db  1, 0, 2, 4 ; bill's, player's, oak's, turn off
+	db  0, 2, 4 ; player's, oak's, turn off
 	db -1
 
 	; postgame

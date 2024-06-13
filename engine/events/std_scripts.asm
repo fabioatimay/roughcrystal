@@ -147,7 +147,7 @@ PokeCenterNurseScript:
 .heal_pokemon
 	farwritetext NurseTakePokemonText
 	pause 20
-	special Special_DayCareMon1
+	special Special_DayCareJoy
 	turnobject LAST_TALKED, LEFT
 	pause 10
 	;	special HealParty

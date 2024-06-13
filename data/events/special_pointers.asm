@@ -166,3 +166,6 @@ SpecialsPointers::
 	add_special Special_SetCopycatPalette
 	add_special Special_CurBoxFullCheck
 	add_special GetCurBoxName
+
+; Rough Crystal
+	add_special Special_DayCareJoy
