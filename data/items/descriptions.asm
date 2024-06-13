@@ -309,7 +309,7 @@ SafariBallDesc:
 	next "Ball.@"
 
 LevelBallDesc:
-	db   "A Ball for lower-"
+	db   "A Ball for lesser-"
 	next "level #mon.@"
 
 LureBallDesc:
@@ -353,7 +353,7 @@ NestBallDesc:
 	next "#mon.@"
 
 NetBallDesc:
-	db   "A Ball for Water"
+	db   "A Ball for Grass"
 	next "or Bug #mon.@"
 
 DiveBallDesc:

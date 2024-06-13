@@ -43,49 +43,44 @@ Marts:
 	assert_table_length NUM_MARTS
 
 CherrygroveMart:
-	db 4 ; # items
-	db POTION
-	db ANTIDOTE
-	db PARALYZEHEAL
-	db AWAKENING
+	db 3 ; # items
+	db POKE_DOLL
+	db MULCH
+	db REPEL
 	db -1
 
 CherrygroveMartAfterDex:
-	db 6 ; # items
+	db 4 ; # items
 	db POKE_BALL
-	db HEAL_BALL
-	db POTION
-	db ANTIDOTE
-	db PARALYZEHEAL
-	db AWAKENING
+	db POKE_DOLL
+	db MULCH
+	db REPEL
 	db -1
 
 VioletMart:
-	db 11 ; # items
-	db POKE_BALL
+	db 9 ; # items
+	db HEAL_BALL
 	db REPEAT_BALL
+	db POKE_DOLL
 	db POTION
-	db ESCAPE_ROPE
-	db ANTIDOTE
 	db PARALYZEHEAL
-	db AWAKENING
-	db X_ATTACK
-	db X_DEFEND
 	db X_SPEED
-	db FLOWER_MAIL
+	db MULCH
+	db REPEL
 	db -1
 
 AzaleaMart:
-	db 10 ; # items
+	db 11 ; # items
 	db CHARCOAL
-	db POKE_BALL
+	db LURE_BALL
 	db NET_BALL
-	db POTION
+	db POKE_DOLL
 	db SUPER_POTION
+	db FULL_HEAL
+	db REVIVE
+	db X_SPEED
+	db SUPER_REPEL
 	db ESCAPE_ROPE
-	db REPEL
-	db ANTIDOTE
-	db PARALYZEHEAL
 	db FLOWER_MAIL
 	db -1
 
@@ -106,7 +101,7 @@ Goldenrod2FMart2:
 	db 10 ; # items
 	db POKE_BALL
 	db GREAT_BALL
-	db LUXURY_BALL
+	db DREAM_BALL
 	db TIMER_BALL
 	db QUICK_BALL
 	db ESCAPE_ROPE
