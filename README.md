@@ -8,15 +8,15 @@ ___
 # FAQ
   ## Nuzlocke features (partially) maintened/removed
   
-  1. Pokémon permanently dies? **No**, but there are only few ways to revive it. **And here is why: ** ...
-    ..* Throughout my nuzlocke experience (without built-in nuzlocke, only my own rules) I realized that my wish for revive one especific Pokémon gave me a certain thrill in which I desired to overcome my own rules and invented new ones in order to bypass perma-death and the journey was AMAZING. I had to obtain a very rare item in order to revive one specific Pokémon. It was great, so I decided to keep that experience.
+  1. Pokémon permanently dies? **No**, but there are only few ways to revive it. **And here is why:** ...
+  ..* Throughout my nuzlocke experience (without built-in nuzlocke, only my own rules) I realized that my wish for revive one especific Pokémon gave me a certain thrill in which I desired to overcome my own rules and invented new ones in order to bypass perma-death and the journey was AMAZING. I had to obtain a very rare item in order to revive one specific Pokémon. It was great, so I decided to keep that experience.
   2. Only 1 Pokémon catchable per land mark? Duplicate clauses? Shiny clauses? Well... **let's talk about it.**
-    ..* Yes, one mon by map is basically what defines nuzlocke experience, you take affection for that little one, I know! BUT...
-    ..* After playing Legends Arceus (with permanent death clause) I had experience something new... Because Legends Arceus is about catching a lot of mon, by the end of each region map many Pokémon has been caught and many has been released and only the strong ones (or carefully trained) survived the jorney. The limitation of only access Pokémon Storage at the main map create a sense of danger in the wild...And that my friends was game changing for me! 
-    ..* So, NO. There's no such thing here (Hear me out, dont quit yet :rofl: ). Of course you can activate the built-in normal nuzlocke if you disagre with me and want only one catch by route, BUT ...
-    ..*  This Mod was crafted to play diferently and I will explain how this balance it all (read my proposition bellow).
+  ..* Yes, one mon by map is basically what defines nuzlocke experience, you take affection for that little one, I know! BUT...
+  ..* After playing Legends Arceus (with permanent death clause) I had experience something new... Because Legends Arceus is about catching a lot of mon, by the end of each region map many Pokémon has been caught and many has been released and only the strong ones (or carefully trained) survived the jorney. The limitation of only access Pokémon Storage at the main map create a sense of danger in the wild...And that my friends was game changing for me! 
+  ..* So, NO. There's no such thing here (Hear me out, dont quit yet :rofl: ). Of course you can activate the built-in normal nuzlocke if you disagre with me and want only one catch by route, BUT ...
+  ..*  This Mod was crafted to play diferently and I will explain how this balance it all (read my proposition bellow).
   3. No Battle items Clauses? Items can be used in battle but are they really expensive or not quite effective, only real trainers can get and know how and when to use them, a lot of items was blocked of in battle usage from pocket like all berries, and some was maintained as the spray-like medicines.
-    ..* Why I decided to maintain usable in battle items? Because my proposition is about freedom with a cost to it. This "cost" may be a lot of things, maybe exploring, maybe strategical gameplay, maybe resource management (and I know what everybody think of it in Pokemon games, but doing the right way without been too many punishing is rewarding! Trust me).
+  ..* Why I decided to maintain usable in battle items? Because my proposition is about freedom with a cost to it. This "cost" may be a lot of things, maybe exploring, maybe strategical gameplay, maybe resource management (and I know what everybody think of it in Pokemon games, but doing the right way without been too many punishing is rewarding! Trust me).
   4. Breeding is allowed? Yes, I miss breeding! But the day-care feature has been modified to bypass exploitation (more details bellow in overall changes).
 
   ## Semi-Nuzlocke proposition
@@ -30,20 +30,20 @@ ___
   # Overall changes
   
   1. There are only **3 Pokémon Healing Machine** in the game (So, yes you can still do it)
-    ..* Elm's Lab, Fuji's Lab, League's Lobby.
+  ..* Elm's Lab, Fuji's Lab, League's Lobby.
   2. There are only **4 Pokemon Storage Machine** in the game (so, yes you can access and exploit it if you will, when you can)
-    ..* Goldenrod's PokeCom Center, Bill's House, Safari Zone, Battle Frontier (Post-Game).
+  ..* Goldenrod's PokeCom Center, Bill's House, Safari Zone, Battle Frontier (Post-Game).
   3. There are only **6 Flying Spot** in the game.
-    ..* Azalea Town, Mahogany Town, Lavender Town, Whirl Island, Seafom Island, Tohjo Falls.
+  ..* Azalea Town, Mahogany Town, Lavender Town, Whirl Island, Seafom Island, Tohjo Falls.
   4. Day-care and Pokémon Center Overhaul.
-    ..* Day-care now is a **House Care for Retired Pokémon!** Once you retire a Pokémon you cannot take it back. They still can breed thou.
-      ..* This is for bypass day-care exploitation for revive a fainted mon since daycare interaction will be everywhere.
-    ..* Nurse Joy can retire a Pokémon, every retired Pokémon with Nurse Joy will give you an mail item.
-      ..* You can write a good-bye mail for your fainted beloved Pokémon and store it in the PC :smiling_face_with_tear:
-        ..* Cute, right? And you can trade mails for heart scales as well.
-    5. Every Pokémon Mart has a **Magikarp Dealer** and you can buy as many as you wish. 
+  ..* Day-care now is a **House Care for Retired Pokémon!** Once you retire a Pokémon you cannot take it back. They still can breed thou.
+     ..* This is for bypass day-care exploitation for revive a fainted mon since daycare interaction will be everywhere.
+  ..* Nurse Joy can retire a Pokémon, every retired Pokémon with Nurse Joy will give you an mail item.
+     ..* You can write a good-bye mail for your fainted beloved Pokémon and store it in the PC :smiling_face_with_tear:
+     ..* Cute, right? And you can trade mails for heart scales as well.
+  5. Every Pokémon Mart has a **Magikarp Dealer** and you can buy as many as you wish. 
     ..* To avoid softlock you may buy a :sparkles: Magikarp :sparkles: and keep going. 
-      ..* Pretty good business this Magikarp Selling, right? So, you can also Sell Magikarp as well! 
+     ..* Pretty good business this Magikarp Selling, right? So, you can also Sell Magikarp as well! 
         ..* For half price, of course, but hey remember Lureballs? 
     
     
