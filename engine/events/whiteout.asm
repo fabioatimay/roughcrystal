@@ -27,7 +27,7 @@ Script_Whiteout:
 	waitbutton
 	special FadeOutPalettes
 	pause 40
-	special HealPartyEvenForNuzlocke
+;	special HealPartyEvenForNuzlocke
 	checkflag ENGINE_BUG_CONTEST_TIMER
 	iftrue .bug_contest
 	callasm GetWhiteoutSpawn

@@ -48,7 +48,7 @@ CatchTutorial::
 .Dude:
 	db "Lyra@"
 .DudeItems:
-	db 2, REPEL, 1, GOLD_LEAF, 1, -1
+	db 3, POKE_DOLL, 1, REPEL, 1, GOLD_LEAF, 1, -1
 .DudeMedicine:
 	db 3, POTION, 2, ANTIDOTE, 1, FRESH_WATER, 1, -1
 .DudeBalls:

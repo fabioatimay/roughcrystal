@@ -147,9 +147,10 @@ PokeCenterNurseScript:
 .heal_pokemon
 	farwritetext NurseTakePokemonText
 	pause 20
+	special Special_DayCareMon1
 	turnobject LAST_TALKED, LEFT
 	pause 10
-	special HealParty
+	;	special HealParty
 	special SaveMusic
 	playmusic MUSIC_NONE
 	setval 0 ; Machine is at a Pokemon Center
