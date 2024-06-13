@@ -20,15 +20,6 @@
 	const DAYCARETEXT_COME_AGAIN
 	const DAYCARETEXT_13
 
-Special_DayCareJoy:
-	call DayCareAskDepositPokemon
-	jr c, .print_text
-	farcall DepositMonWithDayCareLady
-	ld hl, wDayCareLady
-	set DAYCARELADY_HAS_MON_F, [hl]
-	call DayCare_DepositPokemonText
-	jmp DayCare_InitBreeding
-
 Special_DayCareMan:
 	ld hl, wDayCareMan
 	bit DAYCAREMAN_HAS_MON_F, [hl]
@@ -66,10 +57,10 @@ Special_DayCareMan:
 	jmp PrintDayCareText
 
 Special_DayCareLady:
-	ld hl, wDayCareLady
-	bit DAYCARELADY_HAS_MON_F, [hl]
-	jr nz, .AskWithdrawMon
-	ld hl, wDayCareLady
+;	ld hl, wDayCareLady
+;	bit DAYCARELADY_HAS_MON_F, [hl]
+;	jr nz, .AskWithdrawMon
+;	ld hl, wDayCareLady
 	ld a, DAYCARETEXT_LADY_INTRO
 	call DayCareLadyIntroText
 	jr c, .cancel
