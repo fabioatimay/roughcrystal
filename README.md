@@ -33,8 +33,8 @@ ___
   ..* Elm's Lab, Fuji's Lab, League's Lobby.
   2. There are only **4 Pokemon Storage Machine** in the game (so, yes you can access and exploit it if you will, when you can)
   ..* Goldenrod's PokeCom Center, Bill's House, Safari Zone, Battle Frontier (Post-Game).
-  3. There are only **6 Flying Spot** in the game.
-  ..* Azalea Town, Mahogany Town, Lavender Town, Whirl Island, Seafom Island, Tohjo Falls.
+  3. There are only **8 Flying Spot** in the game.
+  ..* Azalea Town, Mahogany Town, Lavender Town, Pallet Town, Yellow Forest, Mt. Silver, Mt. Moon, Indigo Plateau.
   4. Day-care and Pokémon Center Overhaul.
   ..* Day-care now is a **House Care for Retired Pokémon!** Once you retire a Pokémon you cannot take it back. They still can breed thou.
      ..* This is for bypass day-care exploitation for revive a fainted mon since daycare interaction will be everywhere.
