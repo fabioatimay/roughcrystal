@@ -13,8 +13,8 @@ Route30_MapScriptHeader:
 	bg_event  9, 43, BGEVENT_JUMPTEXT, Route30SignText
 	bg_event 13, 29, BGEVENT_JUMPTEXT, MrPokemonsHouseDirectionsSignText
 	bg_event 15,  5, BGEVENT_JUMPTEXT, MrPokemonsHouseSignText
-	bg_event  3, 21, BGEVENT_JUMPTEXT, Route30TrainerTipsText
-	bg_event 14,  9, BGEVENT_ITEM + POTION, EVENT_ROUTE_30_HIDDEN_POTION
+	bg_event  7,  7, BGEVENT_JUMPTEXT, Route30TrainerTipsText
+	bg_event  2, 11, BGEVENT_ITEM + POTION, EVENT_ROUTE_30_HIDDEN_POTION
 	bg_event  5, 39, BGEVENT_JUMPTEXT, BerryMastersHouseSignText
 
 	def_object_events
@@ -23,12 +23,12 @@ Route30_MapScriptHeader:
 	object_event  5, 25, SPRITE_RATTATA_BACK, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
 	object_event  2, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, EVENT_ROUTE_30_YOUNGSTER_JOEY
 	object_event  5, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerYoungsterMikey, -1
-	object_event  1,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_catcherDon, -1
+	object_event 10, 17, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 5, TrainerBug_catcherWade1, -1
 	object_event  7, 30, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route30YoungsterScript, -1
 	object_event  2, 13, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route30CooltrainerFText, -1
 	cuttree_event  8,  6, EVENT_ROUTE_30_CUT_TREE
-	fruittree_event 10, 39, FRUITTREE_ROUTE_30_1, PECHA_BERRY, PAL_NPC_RED
-	fruittree_event 11,  5, FRUITTREE_ROUTE_30_2, LEPPA_BERRY, PAL_NPC_PURPLE
+	fruittree_event 10, 39, FRUITTREE_ROUTE_30_1, LEPPA_BERRY, PAL_NPC_PURPLE
+	fruittree_event 11,  5, FRUITTREE_ROUTE_30_2, PECHA_BERRY, PAL_NPC_RED
 	itemball_event  8, 35, ANTIDOTE, 1, EVENT_ROUTE_30_ANTIDOTE
 
 	object_const_def
