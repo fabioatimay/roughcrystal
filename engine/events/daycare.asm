@@ -61,9 +61,9 @@ Special_DayCareLady:
 ;	bit DAYCARELADY_HAS_MON_F, [hl]
 ;	jr nz, .AskWithdrawMon
 ;	ld hl, wDayCareLady
-	ld a, DAYCARETEXT_LADY_INTRO
-	call DayCareLadyIntroText
-	jr c, .cancel
+;	ld a, DAYCARETEXT_LADY_INTRO
+;	call DayCareLadyIntroText
+;	jr c, .cancel
 	call DayCareAskDepositPokemon
 	jr c, .print_text
 	farcall DepositMonWithDayCareLady
@@ -117,8 +117,8 @@ DayCareAskDepositPokemon:
 	call GetPartyLocation
 	bit MON_IS_EGG_F, [hl]
 	jr nz, .Egg
-	farcall CheckCurPartyMonFainted
-	jr c, .OutOfUsableMons
+;	farcall CheckCurPartyMonFainted
+;	jr c, .OutOfUsableMons
 	ld hl, wPartyMon1Item
 	ld bc, PARTYMON_STRUCT_LENGTH
 	ld a, [wCurPartyMon]

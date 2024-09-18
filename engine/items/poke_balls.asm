@@ -347,12 +347,12 @@ endr
 	db HIGH(65280), 40
 
 LureBallMultiplier:
-; multiply catch rate by 5 if this is a fishing rod battle // Nerfed to 2x but sells on marts
+; multiply catch rate by 5 if this is a fishing rod battle // Nerfed to 3x but sells on marts
 	ld a, [wBattleType]
 	cp BATTLETYPE_FISH
 	ret nz
 
-	ln a, 2, 1 ; x2
+	ln a, 3, 1 ; x3
 	jmp MultiplyAndDivide
 
 MoonBallMultiplier:
@@ -448,7 +448,7 @@ DoLevelBallMultiplier:
 	ret
 
 RepeatBallMultiplier:
-; multiply catch rate by 3.5 if enemy mon is already in Pokédex // nerfed to 2.5 but dropped price
+; multiply catch rate by 3.5 if enemy mon is already in Pokédex // nerfed to 3 but dropped price
 	ld a, [wTempEnemyMonSpecies]
 	dec a
 	push bc
@@ -456,7 +456,7 @@ RepeatBallMultiplier:
 	pop bc
 	ret z
 
-	ln a, 5, 2 ; x3.5 // 2.5
+	ln a, 6, 2 ; x3.5 // 3
 	jmp MultiplyAndDivide
 
 TimerBallMultiplier:

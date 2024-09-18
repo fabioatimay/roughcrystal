@@ -216,7 +216,7 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CYNDAQUIL, NO_FORM, 2, ORAN_BERRY
+	givepoke CYNDAQUIL, NO_FORM, 3, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -256,7 +256,7 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke TOTODILE, NO_FORM, 2, ORAN_BERRY
+	givepoke TOTODILE, NO_FORM, 3, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -294,7 +294,7 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CHIKORITA, NO_FORM, 2, ORAN_BERRY
+	givepoke CHIKORITA, NO_FORM, 3, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -610,10 +610,8 @@ AideScript_GivePotions:
 	opentext
 	writetext AideText_GiveYouPotions
 	promptbutton
-	getitemname PREMIER_BALL, $1
-	callstd receiveitem
-	giveitem PREMIER_BALL, 5
-	itemnotify
+	verbosegiveitem POKE_DOLL, 5
+	verbosegiveitem PREMIER_BALL, 5
 	setscene $2
 	jumpopenedtext AideText_AlwaysBusy
 
@@ -678,7 +676,13 @@ ElmsLabWindow:
 	jumptext ElmsLabWindowText1
 
 ElmsLabPC:
-	jumptext ElmsLabPCText
+;	jumptext ElmsLabPCText
+	call PC_PlayChoosePCSound
+	ld hl, PokeCenterPCText_AccessedBillsPC
+	call PC_DisplayText
+	farcall _BillsPC
+	and a
+	ret
 
 ElmsLab_WalkUpToElmMovement:
 	step_up

@@ -5,13 +5,13 @@
 	db 170 ; catch rate
 	db 76 ; base exp
 	db ORAN_BERRY ; item 1
-	db ORAN_BERRY ; item 2
+	db AIR_BALLOON ; item 2
 	dn GENDER_F75, 1 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/jigglypuff/front.dimensions"
 if DEF(FAITHFUL)
 	abilities_for JIGGLYPUFF, CUTE_CHARM, COMPETITIVE, FRISK
 else
-	abilities_for JIGGLYPUFF, CUTE_CHARM, COMPETITIVE, SOUNDPROOF
+	abilities_for JIGGLYPUFF, CUTE_CHARM, FRISK, SOUNDPROOF
 endc
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups

@@ -4,11 +4,11 @@
 	db GROUND, GROUND ; type
 	db 120 ; catch rate
 	db 124 ; base exp
-	db NO_ITEM ; item 1
-	db KEE_BERRY ; item 2
+	db BERRY_JUICE ; item 1
+	db HEAVY_BOOTS ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/phanpy/front.dimensions"
-	abilities_for PHANPY, PICKUP, PICKUP, SAND_VEIL
+	abilities_for PHANPY, RUN_AWAY, COMPETITIVE, SAND_VEIL
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

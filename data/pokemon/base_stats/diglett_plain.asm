@@ -4,7 +4,7 @@
 	db GROUND, GROUND ; type
 	db 255 ; catch rate
 	db 81 ; base exp
-	db NO_ITEM ; item 1
+	db POKE_DOLL ; item 1
 	db SOFT_SAND ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/diglett_plain/front.dimensions"

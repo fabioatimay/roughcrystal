@@ -45,43 +45,42 @@ Marts:
 CherrygroveMart:
 	db 3 ; # items
 	db POKE_DOLL
-	db REPEL
 	db MULCH
+	db PORTRAITMAIL
 	db -1
 
 CherrygroveMartAfterDex:
 	db 4 ; # items
 	db POKE_BALL
 	db POKE_DOLL
-	db REPEL
-	db MULCH
+	db FRESH_WATER
+	db PORTRAITMAIL
 	db -1
 
 VioletMart:
-	db 9 ; # items
+	db 7; # items
 	db HEAL_BALL
-	db REPEAT_BALL
 	db POKE_DOLL
-	db POTION
-	db PARALYZEHEAL
-	db X_SPEED
-	db REPEL
+	db FULL_HEAL
+	db ETHER
 	db MULCH
+	db REPEL
+	db X_ACCURACY
 	db -1
 
 AzaleaMart:
 	db 11 ; # items
 	db CHARCOAL
-	db LURE_BALL
+	db GREAT_BALL
 	db NET_BALL
 	db POKE_DOLL
-	db SUPER_POTION
+	db POTION
 	db FULL_HEAL
 	db REVIVE
-	db X_SPEED
+	db ETHER
 	db SUPER_REPEL
 	db ESCAPE_ROPE
-	db FLOWER_MAIL
+	db X_SPEED
 	db -1
 
 Goldenrod2FMart1:

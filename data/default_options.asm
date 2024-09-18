@@ -12,8 +12,8 @@ DefaultOptions:
 ; wTextboxFlags
 	db $01 ; ???
 ; wOptions2
-	db 0
+	db (1 << RUNNING_SHOES)
 ; wInitialOptions
-	db (1 << NATURES_OPT) | (1 << ABILITIES_OPT) | (1 << PSS_OPT) | (1 << COLOR_VARY_OPT)
+	db (1 << NATURES_OPT) | (1 << ABILITIES_OPT) | (1 << PSS_OPT)
 ; wInitialOptions2
 	db 0

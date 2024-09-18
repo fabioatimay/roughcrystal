@@ -16,7 +16,7 @@ CherrygrovePokeCenter1F_MapScriptHeader:
 	def_object_events
 	pc_nurse_event  5, 1
 	object_event  1,  6, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygrovePokeCenter1FTeacherScript, -1
-	object_event  8,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FFisherText, -1
+	object_event  8,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PokeCenter1FFisherScript, -1
 	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FGentlemanText, -1
 	object_event  9,  4, SPRITE_LADY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FLadyText, -1
 
@@ -61,13 +61,62 @@ CherrygrovePokeCenter1FTeacherScript:
 	line "there already!"
 	done
 
-CherrygrovePokeCenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+PokeCenter1FFisherScript:
+	faceplayer
+	opentext
+	writetext .GreetingText
+	special PlaceMoneyTopRight
+	yesorno
+	iffalse .NeverMind
+	checkmoney $0, 100
+	ifequal $2, .NotEnoughMoney
+	givepoke MAGIKARP, 5
+	iffalse_jumpopenedtext PokeCenter1FFisherNoRoomText
+	waitsfx
+	playsound SFX_TRANSACTION
+	takemoney $0, 100
+	special PlaceMoneyTopRight
+	writetext PokeCenter1FFisherYesText
+	waitbutton
+	closetext
+	end
 
-	para "of #mon, and"
-	line "it's all free."
+.NeverMind:
+	writetext .NeverMindText
+	waitbutton
+	closetext
+	end
+
+.NotEnoughMoney:
+	writetext .NotEnoughMoneyText
+	waitbutton
+	closetext
+	end
+
+.GreetingText:
+	text "Want 1 Magikarp"
+	line "For ¥100?"
+
+.NeverMindText:
+	text "I understand."
+	line "Have a nice day!"
 	done
+
+.NotEnoughMoneyText:
+	text "I'm so sorry, but"
+	line "you don't have"
+	cont "enough money."
+	done
+
+PokeCenter1FFisherYesText:
+	text "Great! Here is"
+	line "your Magikarp!"
+	done
+
+PokeCenter1FFisherNoRoomText:
+	text "Sorry, make some"
+	line "room for it!"
+
 
 CherrygrovePokeCenter1FGentlemanText:
 	text "That PC is free"
