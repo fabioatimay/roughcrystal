@@ -2,7 +2,7 @@
 
 This is a custom Pokémon game based on [the Pokémon Crystal Polished](https://github.com/Rangi42/polishedcrystal).
 
-Beyound of everything Polished Crystal has to offer this hack rom is actually a "semi-nuzlocke" mod of the same hack rom. 
+Beyond of everything Polished Crystal has to offer this hack rom is actually a "semi-nuzlocke" mod of the same hack rom. 
 And yes, I know Polished Crystal has a nuzlocke feature mode built-in, however, I dont like some nuzlocke rules anymore and here it comes what I am trying to change the nuzlocke experience for a new concept of "semi-nuzlocke" or "soft-nuzlocke".
 ___
 # FAQ
